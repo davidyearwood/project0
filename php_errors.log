@@ -1,0 +1,245 @@
+[29-Oct-2015 01:39:32 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity "menu.xml" in /home/ubuntu/workspace/www/project 0/helper/helper.php on line 2
+[29-Oct-2015 01:39:32 UTC] PHP Stack trace:
+[29-Oct-2015 01:39:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/helper.php:0
+[29-Oct-2015 01:39:32 UTC] PHP   2. simplexml_load_file() /home/ubuntu/workspace/www/project 0/helper/helper.php:2
+[29-Nov-2015 00:45:09 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 50
+[29-Nov-2015 00:45:10 UTC] PHP Stack trace:
+[29-Nov-2015 00:45:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:45:10 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:72
+[29-Nov-2015 00:45:13 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 50
+[29-Nov-2015 00:45:13 UTC] PHP Stack trace:
+[29-Nov-2015 00:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:45:13 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:72
+[29-Nov-2015 00:45:28 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 50
+[29-Nov-2015 00:45:28 UTC] PHP Stack trace:
+[29-Nov-2015 00:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:45:28 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:72
+[29-Nov-2015 00:45:30 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 50
+[29-Nov-2015 00:45:30 UTC] PHP Stack trace:
+[29-Nov-2015 00:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:45:30 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:72
+[29-Nov-2015 00:46:10 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:46:10 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:10 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:46:10 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:10 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:46:10 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:10 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:75
+[29-Nov-2015 00:46:16 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:46:16 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:16 UTC] PHP   2. include_once() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:46:16 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:46:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): include_once('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 00:46:30 UTC] PHP Warning:  include_once(/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:46:30 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:30 UTC] PHP Warning:  include_once(): Failed opening '/config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:46:30 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:30 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:46:30 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:30 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:75
+[29-Nov-2015 00:46:34 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:46:34 UTC] PHP Stack trace:
+[29-Nov-2015 00:46:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:46:34 UTC] PHP   2. include_once() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:46:34 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:46:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): include_once('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 00:47:16 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:47:16 UTC] PHP Stack trace:
+[29-Nov-2015 00:47:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:47:16 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:74
+[29-Nov-2015 00:48:36 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:48:36 UTC] PHP Stack trace:
+[29-Nov-2015 00:48:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:48:36 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:75
+[29-Nov-2015 00:48:37 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:48:37 UTC] PHP Stack trace:
+[29-Nov-2015 00:48:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:48:37 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:75
+[29-Nov-2015 00:48:48 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:48:48 UTC] PHP Stack trace:
+[29-Nov-2015 00:48:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:48:48 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:77
+[29-Nov-2015 00:48:49 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:48:49 UTC] PHP Stack trace:
+[29-Nov-2015 00:48:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:48:49 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:77
+[29-Nov-2015 00:49:36 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:49:36 UTC] PHP Stack trace:
+[29-Nov-2015 00:49:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:49:36 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:77
+[29-Nov-2015 00:49:37 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:49:37 UTC] PHP Stack trace:
+[29-Nov-2015 00:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:49:37 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:77
+[29-Nov-2015 00:50:08 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:50:08 UTC] PHP Stack trace:
+[29-Nov-2015 00:50:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:50:08 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:78
+[29-Nov-2015 00:50:09 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:50:09 UTC] PHP Stack trace:
+[29-Nov-2015 00:50:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:50:09 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:78
+[29-Nov-2015 00:50:22 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 52
+[29-Nov-2015 00:50:22 UTC] PHP Stack trace:
+[29-Nov-2015 00:50:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:50:22 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:77
+[29-Nov-2015 00:51:05 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:51:05 UTC] PHP Stack trace:
+[29-Nov-2015 00:51:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:51:05 UTC] PHP   2. include_once() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:51:05 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:51:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): include_once('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 00:51:06 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:51:06 UTC] PHP Stack trace:
+[29-Nov-2015 00:51:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:51:06 UTC] PHP   2. include_once() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:51:06 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:51:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): include_once('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 00:51:29 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:51:29 UTC] PHP Stack trace:
+[29-Nov-2015 00:51:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:51:29 UTC] PHP   2. include_once() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:51:29 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:51:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): include_once('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 00:51:53 UTC] PHP Warning:  include_once(project 0/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:51:53 UTC] PHP Stack trace:
+[29-Nov-2015 00:51:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:51:53 UTC] PHP Warning:  include_once(): Failed opening 'project 0/config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:51:53 UTC] PHP Stack trace:
+[29-Nov-2015 00:51:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:51:53 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:51:53 UTC] PHP Stack trace:
+[29-Nov-2015 00:51:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:51:53 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:78
+[29-Nov-2015 00:52:05 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:52:05 UTC] PHP Stack trace:
+[29-Nov-2015 00:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:52:05 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:52:05 UTC] PHP Stack trace:
+[29-Nov-2015 00:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:52:05 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:52:05 UTC] PHP Stack trace:
+[29-Nov-2015 00:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:52:05 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:78
+[29-Nov-2015 00:53:51 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:53:51 UTC] PHP Stack trace:
+[29-Nov-2015 00:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:53:51 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:53:51 UTC] PHP Stack trace:
+[29-Nov-2015 00:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:53:51 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:53:51 UTC] PHP Stack trace:
+[29-Nov-2015 00:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:53:51 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:78
+[29-Nov-2015 00:54:24 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/www/project 0/config): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:24 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:24 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/www/project 0/config' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:24 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:24 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:54:24 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:24 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:78
+[29-Nov-2015 00:54:25 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/www/project 0/config): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:25 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:25 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/www/project 0/config' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:25 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:25 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 53
+[29-Nov-2015 00:54:25 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:25 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:78
+[29-Nov-2015 00:54:43 UTC] PHP Warning:  require(/home/ubuntu/workspace/www/project 0/config): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:43 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/www/project 0/config' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:43 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:44 UTC] PHP Warning:  require(/home/ubuntu/workspace/www/project 0/config): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:44 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:54:44 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/www/project 0/config' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 3
+[29-Nov-2015 00:54:44 UTC] PHP Stack trace:
+[29-Nov-2015 00:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:55:07 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:55:07 UTC] PHP Stack trace:
+[29-Nov-2015 00:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:55:07 UTC] PHP   2. require() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:55:07 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:55:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): require('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 00:55:08 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:55:08 UTC] PHP Stack trace:
+[29-Nov-2015 00:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:55:08 UTC] PHP   2. require() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:55:08 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:55:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): require('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 00:55:41 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/helper/config.php on line 3
+[29-Nov-2015 00:55:41 UTC] PHP Stack trace:
+[29-Nov-2015 00:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:55:41 UTC] PHP   2. require() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:55:41 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/helper/config.php:3
+[29-Nov-2015 00:55:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/helper/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/helper/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): require('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/helper/config.php on line 4
+[29-Nov-2015 00:58:01 UTC] PHP Warning:  file_get_contents(menu.xml): failed to open stream: No such file or directory in /home/ubuntu/workspace/www/project 0/config.php on line 3
+[29-Nov-2015 00:58:01 UTC] PHP Stack trace:
+[29-Nov-2015 00:58:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 00:58:01 UTC] PHP   2. require() /home/ubuntu/workspace/www/project 0/helper/master-template.php:3
+[29-Nov-2015 00:58:01 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/www/project 0/config.php:3
+[29-Nov-2015 00:58:01 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/ubuntu/workspace/www/project 0/config.php:4
+Stack trace:
+#0 /home/ubuntu/workspace/www/project 0/config.php(4): SimpleXMLElement->__construct('')
+#1 /home/ubuntu/workspace/www/project 0/helper/master-template.php(3): require('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/www/project 0/config.php on line 4
+[29-Nov-2015 01:00:32 UTC] PHP Fatal error:  Call to undefined function totalItems() in /home/ubuntu/workspace/www/project 0/helper/master-template.php on line 51
+[29-Nov-2015 01:00:32 UTC] PHP Stack trace:
+[29-Nov-2015 01:00:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/www/project 0/helper/master-template.php:0
+[29-Nov-2015 01:00:32 UTC] PHP   2. navbar() /home/ubuntu/workspace/www/project 0/helper/master-template.php:105

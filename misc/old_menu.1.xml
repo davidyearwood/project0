@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<category name="pizzas">
+		<item name="tomato &amp; cheese" id='1'>
+			<size small="5.50" large="9.75"/>
+		</item>
+		<item name="pepperoni">
+			<size small="6.85" large="10.85" />
+		</item>
+		<item name="sausage">
+			<size small="6.85" large="10.85" />
+		</item>
+    <item name="bacon">
+			<size small="6.85" large="10.85" />
+		</item>
+	</category>
+	
+	<category name="speciality pizzas">
+		<item name="boxed pizza special">
+			<size small="9.80" large="15.80"/>
+		</item>
+		<item name="mediterranean">
+			<size small="9.80" large="15.80"/>
+		</item>
+		<item name="vegetarian">
+			<size small="9.80" large="15.80"/>
+		</item>
+	</category>
+	
+	<category name="special dinners">
+		<item name="chicken wing dinner">
+			<size regular="7.25"/>
+		</item>
+		<item name="chicken finger plate">
+			<size regular="7.25"/>
+		</item>
+		<item name="gyro plate">
+			<size regular="7.25"/>
+		</item>
+	</category>
+	
+	<category name="side orders">
+		<item name="onion rings">
+			<size small="2.60" large="2.95"/>
+		</item>
+		<item name="french fries">
+			<size small="2.25" large="2.65"/>
+		</item>
+		<item name="gyro plate">
+			<size regular="7.25"/>
+		</item>
+	</category>
+
+	<category name="salads">
+		<item name="garden">
+			<size small="3.50" large="4.50"/>
+		</item>
+		<item name="greek">
+			<size small="3.50" large="4.50"/>
+		</item>
+		<item name="tuna">
+			<size small="3.50" large="4.50"/>
+		</item>
+	</category>
+	
+	<category name="spaghetti">
+		<item name="spaghetti with sauce">
+			<size regular="5.40" />
+		</item>
+		<item name="spaghetti with sausage">
+			<size regular="6.45" />
+		</item>
+		<item name="spaghetti with meatball">
+			<size regular="6.45" />
+		</item>
+	</category>
+	
+	<category name="ziti">
+		<item name="ziti with sauce">
+			<size regular="5.40" />
+		</item>
+		<item name="ziti with sausage">
+			<size regular="6.45" />
+		</item>
+		<item name="ziti with meatball">
+			<size regular="6.45" />
+		</item>
+	</category>
+	
+	<category name="lasagna">
+		<item name="lasagna with sauce">
+			<size regular="6.25" />
+		</item>
+		<item name="lasagna with sausage">
+			<size regular="7.25" />
+		</item>
+		<item name="lasagna with meatball">
+			<size regular="7.25" />
+		</item>
+	</category>
+	
+	<category name="manicotti">
+		<item name="manicotti with sauce">
+			<size regular="6.25" />
+		</item>
+		<item name="manicotti with sausage">
+			<size regular="7.25" />
+		</item>
+		<item name="manicotti with meatball">
+			<size regular="7.25" />
+		</item>
+	</category>
+	
+	<category name="calzones">
+		<item name="vegetarian">
+			<size large="7.35" />
+		</item>
+		<item name="sausage">
+			<size large="7.35" />
+		</item>
+		<item name="meatball">
+			<size large="7.35" />
+		</item>
+	</category>
+	
+	<category name="wraps">
+		<item name="turkey club wrap">
+			<size regular="4.95" />
+		</item>
+		<item name="chicken cobb">
+			<size regular="4.95" />
+		</item>
+		<item name="crispy chicken">
+			<size regular="4.95" />
+		</item>
+	</category>
+	
+	<category name="grinders">
+		<item name="tuna">
+			<size small="4.75" large="5.75"/>
+		</item>
+		<item name="american">
+			<size small="4.75" large="5.75"/>
+		</item>
+		<item name="meatless">
+			<size small="4.75" large="5.75"/>
+		</item>
+	</category>
+</menu>

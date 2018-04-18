@@ -1,0 +1,267 @@
+/* General */
+html { 
+    font-size: 10px; 
+    position: relative; 
+    min-height: 100%; 
+}
+h1, h2, h3, h4, h5, li, a, figcaption, button {
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+}
+body { 
+    margin: 0 0 100px; /* bottom = footer height */
+    background: #323232; 
+/* background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png);*/
+    background: #f1f1f1; /* Fallback */
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cream_pixels.png); 
+}
+.container, #grandnav {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Navigational Bar Container - Header */
+#header {
+    position: relative;
+    width: 100%;
+    background: #0c4864;
+    height: auto;
+    background:  rgba(67,96,141, .7234);
+    /* background: url(../header.png) 0 0 repeat-x; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+#grandnav {
+   height: auto;/* Take a look at this later */
+}
+
+/* Nav's Logo */
+#logo { display: inline-block; padding-top: 1.5625%; padding-right: 1.5625%; /* 15 / 960 */ margin-left: 15px;}
+#logo h1 a { font-family: 'Permanent Marker', cursive; font-size: 4rem; color: #FFFBD3; text-decoration: none;}
+#logo h1 a:hover { color: #FF6347;}
+
+/* Navigational Links */
+#nav .logothmb img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+#nav { display: inline-block; width: 100%; position: relative; }
+#nav ul li { display: inline; padding: 0 .651465798%;}
+#nav ul li a { 
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 .651465798%; 
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: capitalize; 
+    font-weight: 700; 
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 1.35rem;
+    letter-spacing: .5px;
+    transition: color 1s;
+}
+#nav ul li a:hover {
+    color: #E98175;
+}
+#cart {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin-right: 15px;
+    margin-top: 1.9%;
+    float: right;
+}
+
+/* Mobile Nav */
+.mobile {
+    display: none;
+    position: relative;
+    top: 22px;
+    width: 30%;
+    float: right;
+}
+.mobile div { display: none;}
+#toggle-btn {
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    background: transparent;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    transition: all 400ms ease;
+    float: right;
+    margin-right: 15px;
+}
+
+#toggle-btn.expanded {
+    transform: rotate(90deg);
+    background-color: transparent;
+    border: 0;
+}
+
+/****************************
+    Body
+****************************/
+#title { width: 100%; }
+#title h1 { font-size:5.4rem; text-transform: uppercase; letter-spacing: .5px; font-weight: 800; text-align: center; padding-bottom: 4.166666666%; color: #C52620;}
+#home-body { margin-left: 15px; }
+#cart img {
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: auto;
+}
+
+/**************************
+    Card
+**************************/
+.order-item {
+    display: inline-block;
+    width: 30%;
+    margin-top: 25px;
+    margin-right: 25px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    text-align: center;
+}
+.card-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.order-header, .order-btn {
+    color: rgb(255, 255, 255);
+}
+.order-image > img {
+    width: 70%;
+}
+.order-header, .order-price {
+    font-weight: 700;
+    font-size: 2.8125rem;
+    margin-bottom: 5.208333333%; /* 15 */
+}
+.order-header { margin-bottom: 8px; text-transform: capitalize;}
+.order-price { font-size: 1.875rem; color: #ffffff; margin-top: 0;}
+.order-btn {
+    display: block;
+    border: none;
+    background: none;
+    width: 50%;
+    margin: 5.208333333% auto; /* 15 */
+    padding: 2.7%; /* 8px Initial */
+    text-decoration: none;
+    background: #C23B22;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: background 1s, color 1s;
+}
+
+.order-btn:hover {
+    background-color: #ffffff;
+    color: #C23B22;
+}
+
+/*********************************
+    Adding to my cart
+*********************************/
+.order-quantity, .order-size {
+    margin-top: 5.208333333%;
+    margin-bottom: 5.208333333%;
+    padding: 2.7%;
+    border: none;
+    border-radius: 4px;
+    margin-right: 2.7%;
+    text-align: left;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 1.25em;
+}
+
+.order-size {
+    width: 40%;
+}
+.order-quantity {
+    width: 20%;
+}
+
+footer  {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:  rgba(204,186,172, .4);
+    margin-top: 50px;
+    border-top: 1px dashed #4c4c4c;
+    border-bottom: 1px dashed #4c4c4c;
+    padding: 15px 0;
+    padding-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.5px;
+    letter-spacing: .5px;
+    color: #4c4c4c;
+    clear: both;
+}
+
+#footer-info { float: left; margin-left: 15px;}
+#footer-links { float: right; }
+#footer-links ul li { list-style-type: none; display: inline;}
+#footer-links ul li a { text-decoration: none; color: #4c4c4c; padding: 0 8px; font-size: 15.5px; transition: color 2s; margin-right: 15px;}
+#footer-links ul li a:hover { color: #7f7f7f;}
+
+
+
+
+/**************************
+    Shopping Cart Page
+**************************/
+th, td {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 2.4rem;
+    text-align: left;
+}
+table {
+    width: 70%;
+}
+.center { text-align: center;}
+td {
+    vertical-align: top;
+
+}
+td img {
+    width: 50%;
+    max-width: 90%;
+    
+}
+
+
+
+
+
+@media (max-width: 920px) {
+    html { font-size: 9.5px;}
+    #cart img{
+        width: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+    html { font-size: 9px;}
+    .mobile {
+        display: inline-block;
+    }
+    #nav {
+        display: none;
+    }
+    #cart {
+        display: none;
+    }
+    .order-item { width: 44%;}
+}
+
+@media (max-width: 500px) {
+     html { font-size: 7.5px;}
+    .order-item { width: 90%; margin-right: auto; margin-left: auto;}
+}

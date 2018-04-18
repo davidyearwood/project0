@@ -1,0 +1,486 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cream_pixels.png);
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/checkered_pattern.png);
+    font-family: "Oswald", sans-serif;
+    font-size: 10px;
+    color: #000; /* color: #C52620; */
+    margin: 0 0 100px;
+}
+p {
+    font-family: 'Cardo', times, serif;
+    line-height: 150%;
+    font-size: 2.4rem;
+}
+/* Nav Bar */
+#nav-header {
+    width: 100%;
+    background: #3d3a37;
+   z-index: 10;
+    /* height: 60px; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/************************
+    Header
+************************/
+.header {
+    margin-top: 2.60416666667%; /* 25 / 960 */
+    text-align: center;
+    margin-bottom: 2.60416666667%; /* 25 */
+}
+.header h1 {
+    font-weight: 700;
+}
+
+
+/****************************************
+Footer [completed for the most part]
+*****************************************/
+footer {
+    width: 100%;
+    height: auto;
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    background: #3d3a37;
+    color: #fff;
+    padding-top: 20px;
+}
+.footer-logo, .social {
+    width: 100%;
+}
+.social-caption {
+    display: none;
+}
+.social-links, 
+.social-links ul li,
+.footer-logo h4,
+.footer-logo h2{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.footer-logo h4 {
+    font-family: 'Qwigley', cursive;
+    font-size: 2.5rem;
+}
+.footer-logo h2{
+    color:  #b15a44;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.social-links li, .social-links li a {
+    display: inline-block;
+}
+.social-links li{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.social-links li a {
+    color: #bbb;
+    border: 2px solid #bbb;
+    border-radius: 50px;
+    padding: 15px;
+}
+.social {
+    margin-top: 15px;
+}
+@media (min-width: 875px){
+    .social, 
+    .footer-logo {
+      float: left;
+    }
+    .social {
+        width: 74%;
+        margin-top: 0;
+    }
+    .footer-logo {
+        width: 22%;
+    }
+    .social-caption {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .social-links ul, .social-caption {
+        float: right;
+    }
+    .social-caption h4, .social-caption h3 {
+        margin-bottom: 0;
+    }
+    .social-caption h3,
+    .social-caption h4 {
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+    .social-caption h3{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .social-caption h4 {
+        font-size: 1.5rem;
+    }
+
+    .social-links li a:hover {
+        color: #b15a44;
+        border: 2px solid #b15a44;
+    }
+}
+
+/****************************************
+Header [Completed!]
+*****************************************/
+.header-logo, .menu-trigger {
+    display: inline-block;
+    margin-right: 15px;
+}
+.header-logo {
+    width: 100%;
+    text-align: center;
+}
+.header-logo img{
+    width: 20%; /* 216px */
+    min-width: 150px;
+}
+#cart-items {
+    display: inline-block;
+    position: relative;
+    font-size: 1.15rem;
+    color: #fff;
+    background: #b15a44;
+    height: 20px;
+    width: 20px;
+    bottom: 10px;
+    right: 10px;
+}
+.menu-trigger {
+    position: absolute;
+    bottom: 10%;
+    color: #bbb;
+    text-decoration: none;
+    font-size: 1.45rem;
+    padding: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menu-trigger:hover, 
+.menu-triger i:hover {
+    color: #bbb;
+}
+.active-bg {
+   background: #121110;
+   transition: background 1s;
+}
+#nav-panel {
+    position: absolute;
+    top: 90%;
+    margin-right: 15px;
+    background: #1e1d1b;
+    padding: 0;
+    z-index: 900;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#nav-tab {
+    width: 100%;
+}
+#nav-tab, #nav-tab li {
+    margin-bottom: 0;
+}
+#nav-tab li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #121110;
+    margin-right: 0;
+}
+#nav-tab li:nth-child(2){
+    background: #1e1d1b;
+}
+#nav-tab li a {
+    color: #bbb;
+    font-family: 'Cardo', serif;
+    font-size: 1.95rem;
+    text-decoration: none;
+}
+.active-nav-menu {
+    margin: 0;
+    font-family: 'Cardo', serif;
+    background: #121110;
+    padding: 20px 10px 10px 10px;
+} 
+.active-nav-menu li {
+    display: inline-block;
+    width: 90%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.active-nav-menu li a {
+    color: #bbb;
+    background: #1e1d1b;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5px;
+}
+.active-nav-menu li a:hover {
+    background: #1e1d1b;
+}
+.active-nav-menu {
+    overflow: auto;
+}
+@media (min-width: 670px){
+    .active-bg {
+       background: #1e1d1b;
+    }
+    #nav-panel {
+        padding: 10px;
+    }
+    #nav-tab li {
+        width: 40%;
+    }
+    .active-nav-menu li {
+        width: 25%;
+    }
+}
+
+
+/***************************
+    Home Banner :O 
+***************************/
+#home-banner {
+    width: 100%;
+    background: url(http://www.bagbypizza.com/site/img/carousel-0.jpg);
+    height: 82vh;
+    background-size: cover;
+}
+
+#home-banner h1 {
+    font-family: 'Qwigley';
+    font-size: 10rem;
+    color: white;
+    text-align: center;
+}
+
+/**************************
+    Order Items
+**************************/
+.order-container {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+.order-info {
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(229, 229, 229, .6);
+    padding: 8.75% 8.75% 1.1875% 8.75%;
+    margin-bottom: 30px;
+    
+}
+
+.order-img-container {
+    box-sizing: border-box;
+    position: relative;
+    top: 5px;
+    margin: 0;
+    width: 100%;
+}
+.order-img-container img {
+    width: 100%;
+    height: 100%;
+}
+.order-info p {
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+.order-info .order-des{
+    display: none;
+}
+
+.order-info h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #3d3a37; 
+    text-transform: uppercase; 
+    font-weight: 300; 
+    letter-spacing: 1px; 
+    font-size: 2rem; 
+    margin-bottom: 0;
+    color: #b15a44;
+}
+
+.order-form button, 
+.order-form input, 
+.order-form select {
+    width: 100%;
+    border: 2px solid #b15a44;
+    background: transparent;
+    border-radius: 0;
+    vertical-align: top;
+}
+.order-form button {
+    color: #b15a44;
+    transition: background 1s, color 1s;
+}
+
+.order-form button:hover {
+    background: #b15a44;
+    border: none;
+    color: #ffffff;
+}
+
+@media (min-width: 860px) {
+    .order-form input {
+        width: 29%;
+    }
+    .order-form select {
+        width: 70%;
+    }
+    .order-info .order-des {
+        display: block;
+        font-size: 1.45rem;
+        line-height: 145%;
+    }
+}
+
+/*********************
+    Page Title
+*********************/
+#title {
+    font-size: 5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #3d3a37;
+    margin-top: 5%;
+}
+
+#title p {
+    font-size: 1.7rem;
+    border-left: 3px solid #b15a44;
+    padding: 1.5625%;
+}
+
+/*****************
+    Shopping Cart
+*****************/
+#aces-cart {
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(229, 229, 229, .6);
+}
+#aces-cart th {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+#aces-cart td {
+    font-size: 1.4rem;
+}
+#aces-cart input, #aces-cart button {
+    border-radius: 0;
+}
+#aces-cart th, #aces-cart td {
+    padding: 8px;
+}
+
+@media (max-width: 750px){
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    thead tr, thead tr th {
+        display: none;
+    }
+    tr {
+        border: 1px solid #ccc;
+    }
+    td {
+        text-transform: uppercase;
+        font-weight: 400;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+    td:nth-of-type(1) { font-weight: 400; font-size: 2rem !important; letter-spacing: 1px;}
+    td:nth-of-type(2):before { content: "Price: ";}
+    td:nth-of-type(3):before { content: "QTY "; }
+    td:nth-of-type(4):before { content: "Total: ";}
+}
+
+.checkout-btn {
+    background: #b15a44;
+    color: #ffffff;
+    border-radius: 0;
+    transition: background 1s, color 1s;
+}
+
+.checkout-btn:hover {
+    background: transparent;
+    color: #b15a44;
+    border-color: #b15a44;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-1 {
+    background-image: url(http://viewmagazine.ca/wp-content/uploads/New-Pizza-Pull-Comp-WEB.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+
+
+#slider-container {
+    margin: 0;
+    width: 100%;
+    max-height: 400px;
+    height: 60vh;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.gallery {
+    position: relative;
+    right: 0;
+}
+
+.gallery-fig {
+    display: inline-block;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-fig img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#controls {
+    position: absolute;
+    top: 0;
+}
+
+#controls a {
+    color: #fff;
+    font-size: 4rem;
+}

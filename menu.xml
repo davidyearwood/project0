@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<category name="pizzas" id='3'>
+		<item name="tomato &amp; cheese" id='1'>
+			<size small="5.50" large="9.75"/>
+		</item>
+		<item name="pepperoni" id='2'>
+			<size small="6.85" large="10.85" />
+		</item>
+		<item name="sausage" id='3'>
+			<size small="6.85" large="10.85" />
+		</item>
+    <item name="bacon" id='4'>
+			<size small="6.85" large="10.85" />
+		</item>
+	</category>
+	
+	<category name="speciality pizzas">
+		<item name="boxed pizza special" id='5'>
+			<size small="9.80" large="15.80"/>
+		</item>
+		<item name="mediterranean" id='6'>
+			<size small="9.80" large="15.80"/>
+		</item>
+		<item name="vegetarian" id='7'>
+			<size small="9.80" large="15.80"/>
+		</item>
+		<item name='Three Aces Special' id='8'>
+			<size small="9.80" large="15.80" />
+		</item>
+	</category>
+	
+	<category name="special dinners">
+		<item name="chicken wing dinner" id='9'>
+			<size regular="7.25"/>
+		</item>
+		<item name="chicken finger plate" id='10'>
+			<size regular="7.25"/>
+		</item>
+		<item name="gyro plate" id='11'>
+			<size regular="7.25"/>
+		</item>
+		<item name="Cheeseburger" id='12'>
+			<size regular="5.25" />
+		</item>
+	</category>
+	
+	<category name="side orders">
+		<item name="onion rings" id='13'>
+			<size small="2.60" large="2.95"/>
+		</item>
+		<item name="french fries" id='14'>
+			<size small="2.25" large="2.65"/>
+		</item>
+		<item name="chicken wings" id='15'>
+			<size regular="5.75" />
+		</item>
+	</category>
+
+	<category name="salads">
+		<item name="garden" id='16'>
+			<size small="3.50" large="4.50"/>
+		</item>
+		<item name="greek" id='17'>
+			<size small="3.50" large="4.50"/>
+		</item>
+		<item name="tuna" id='18'>
+			<size small="3.50" large="4.50"/>
+		</item>
+		<item name="Grilled Chicken" id='19'>
+			<size small="4.95" large="5.95"/>
+		</item>
+	</category>
+	
+	<category name="spaghetti">
+		<item name="spaghetti with sauce" id='20'>
+			<size regular="5.40" />
+		</item>
+		<item name="spaghetti with sausage" id='21'>
+			<size regular="6.45" />
+		</item>
+		<item name="spaghetti with meatball" id='22'>
+			<size regular="6.45" />
+		</item>
+		<item name="spaghetti with veal" id='23'>
+			<size regular="6.45" />
+		</item>
+	</category>
+	
+	<category name="ziti">
+		<item name="ziti with sauce" id='24'>
+			<size regular="5.40" />
+		</item>
+		<item name="ziti with sausage" id='25'>
+			<size regular="6.45" />
+		</item>
+		<item name="ziti with meatball" id='26'>
+			<size regular="6.45" />
+		</item>
+		<item name="ziti with veal" id='27'>
+			<size regular="6.45" />
+		</item>
+	</category>
+	
+	<category name="lasagna">
+		<item name="lasagna with sauce" id='28'>
+			<size regular="6.25" />
+		</item>
+		<item name="lasagna with sausage" id='29'>
+			<size regular="7.25" />
+		</item>
+		<item name="lasagna with meatball" id='30'>
+			<size regular="7.25" />
+		</item>		
+		<item name="lasagna with veal" id='31'>
+			<size regular="7.25" />
+		</item>
+	</category>
+	
+	<category name="manicotti">
+		<item name="manicotti with sauce" id='32'>
+			<size regular="6.25" />
+		</item>
+		<item name="manicotti with sausage" id='33'>
+			<size regular="7.25" />
+		</item>
+		<item name="manicotti with meatball" id='34'>
+			<size regular="7.25" />
+		</item>
+		<item name="manicotti with zeal" id='35'>
+			<size regular="7.25" />
+		</item>
+	</category>
+	
+	<category name="calzones">
+		<item name="vegetarian" id='36'>
+			<size large="7.35" />
+		</item>
+		<item name="sausage" id='37'>
+			<size large="7.35" />
+		</item>
+		<item name="meatball" id='38'>
+			<size large="7.35" />
+		</item>
+	</category>
+	
+	<category name="wraps">
+		<item name="turkey club wrap" id='39'>
+			<size regular="4.95" />
+		</item>
+		<item name="chicken cobb" id='40'>
+			<size regular="4.95" />
+		</item>
+		<item name="crispy chicken" id='41'>
+			<size regular="4.95" />
+		</item>
+		<item name="steak" id='42'>
+			<size regular="4.95" />
+		</item>
+	</category>
+	
+	<category name="grinders">
+		<item name="tuna" id='43'>
+			<size small="4.75" large="5.75"/>
+		</item>
+		<item name="american" id='44'>
+			<size small="4.75" large="5.75"/>
+		</item>
+		<item name="meatless" id='45'>
+			<size small="4.75" large="5.75"/>
+		</item>
+		<item name="ham" id='46'>
+			<size small="4.75" large="5.75"/>
+		</item>
+	</category>
+</menu>
